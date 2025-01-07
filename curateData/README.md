@@ -15,6 +15,7 @@ Allego data in Curate is
 ## For Spike Data
 Allego data in Curate is 
 - band pass filterd between 500 and 300 Hz
+- left at 30 kHz sampling rate 
 
 Videre is then used to detect multi-unit spikes. In order to read those spikes into matlab, all of the above file extensions are needed and the following:
 - .kpi
