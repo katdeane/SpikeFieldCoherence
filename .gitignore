@@ -1,0 +1,16 @@
+
+*.asv
+*.json
+*.xdat
+*.spikes
+*.kpi
+*.mat
+*.fig
+*.pdf
+*.png
+*.csv
+*.txt
+*.wav
+*.jpeg
+*.jpg
+
