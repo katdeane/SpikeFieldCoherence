@@ -1,4 +1,4 @@
-# Data structions generated in Matlab
+# Datastructs
 One each will be generated per subject for LFP/CSD data, and spike data (e.g. "AKO01_Data.mat" and "AKO01_SpikeData.mat")
 
 # LFP Data Fields
