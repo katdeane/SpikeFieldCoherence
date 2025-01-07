@@ -17,7 +17,7 @@ stimIn = downsample(signalStruct.signals(33,:),30); % microvolts
 % data channels:
 if exist('channels','var')
     % take the channels input variable
-    data = downsample(signalStruct.signals(channels,:),30);
+    data = downsample(signalStruct.signals(channels,:)',30)';
 else % or
     % allow the user to change how many channels are analyzed
     prompt   = {'First Chan:','Last Chan:'};
@@ -25,5 +25,5 @@ else % or
     dims     = [1 35];
     definput = {'1','32'};
     channels = inputdlg(prompt,dlgtitle,dims,definput);
-    data = downsample(signalStruct.signals(str2double(channels{1}):str2double(channels{2}),:),30);
+    data = downsample(signalStruct.signals(str2double(channels{1}):str2double(channels{2}),:)',30)';
 end
